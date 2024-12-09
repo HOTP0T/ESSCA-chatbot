@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ESSCA Business School</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #d32f2f;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 0;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin: 0.5rem 0 0;
+    }
+    main {
+      flex: 1;
+      padding: 2rem;
+      text-align: center;
+    }
+    .hero {
+      background-color: #ffebee;
+      padding: 2rem;
+      border-radius: 8px;
+      margin-bottom: 2rem;
+    }
+    .hero h2 {
+      margin: 0;
+      font-size: 2.2rem;
+      color: #b71c1c;
+    }
+    .hero p {
+      margin: 1rem 0;
+      font-size: 1.1rem;
+    }
+    .hero button {
+      background-color: #d32f2f;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    .about {
+      padding: 1.5rem;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: left;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    .about h3 {
+      color: #d32f2f;
+      font-size: 1.8rem;
+    }
+    .about p {
+      font-size: 1rem;
+      line-height: 1.6;
+      margin: 1rem 0;
+    }
+    footer {
+      background-color: #d32f2f;
+      color: white;
+      text-align: center;
+      padding: 1rem 0;
+      margin-top: auto;
+    }
+    footer p {
+      margin: 0;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to ESSCA</h1>
+    <p>Shaping global leaders since 1909</p>
+  </header>
+  <main>
+    <div class="hero">
+      <h2>Discover Your Potential at ESSCA</h2>
+      <p>Join a prestigious institution recognized for academic excellence and innovation. With campuses in multiple countries, we provide a truly global business education.</p>
+      <button>Explore Programs</button>
+    </div>
+    <section class="about">
+      <h3>About ESSCA</h3>
+      <p>ESSCA (École Supérieure des Sciences Commerciales d'Angers) is one of the top business schools in Europe, offering undergraduate, postgraduate, and executive education programs. Established in 1909, ESSCA combines tradition and innovation to deliver world-class learning experiences.</p>
+      <p>Our programs emphasize practical learning, international exposure, and leadership development, preparing students to excel in a rapidly changing business landscape. With a strong network of corporate partners and alumni, ESSCA connects education with professional success.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 ESSCA Business School. All rights reserved.</p>
+  </footer>
+  <script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/1.0.0-beta.4/libs/oversea/index.js"></script>
+  <script>
+    const icon = 'https://i.ibb.co/ph11sNb/2538-F9-CE-3923-4549-BCBF-2003005169-CF-modified.png';
+
+    new CozeWebSDK.WebChatClient({
+      config: {
+        bot_id: '7444854208941572151',
+      },
+      componentProps: {
+        title: 'ESSCA FAQ Bot',
+        icon,
+      },
+    });
+  </script>
+</body>
+</html>
